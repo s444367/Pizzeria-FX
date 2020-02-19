@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="280.0" spacing="10.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.pizzeriafx.ThirdController">
+   <children>
+      <Label alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="560.0" text="Pizzeria FX" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="24.0" prefWidth="242.0" text="Dziękujemy za zamówienie">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="27.0">
+         <children>
+            <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="64.0" text="Na adres: " />
+            <Label fx:id="FinalDistrict" layoutX="10.0" layoutY="10.0" maxWidth="1.7976931348623157E308" prefHeight="28.0" text="[]">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="28.0" text="Zamówienie jest w trakcie realizowania">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="29.0">
+         <children>
+            <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" prefWidth="109.0" text="Razem do zapłaty: " />
+            <Label fx:id="FinalPrice" maxWidth="1.7976931348623157E308" prefHeight="34.0" text="[]">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
