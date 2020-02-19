@@ -2,6 +2,7 @@ package org.openjfx.pizzeriafx;
 
 public class District {
 
+	/*Klasa dzielnicy zawiera nazwę i cenę dowozu*/
 	private String name;
 	private double price;
 	
@@ -10,6 +11,8 @@ public class District {
 		name=districtName;
 		price=districtPrice;
 	}
+	
+	/*Dane jedynie pobierane za pomocą poniższych funkcji*/
 	public String GetName()
 	{
 		return name;
